@@ -33,23 +33,40 @@ body {
 
 
 .POP {
-	font-color: white;
+	color: white;
 	font-size: 30px;
 	position: absolute;
 	top: 150px;
-	left: 220px;
-
+	left: 300px;
 
 
 }
 
+.BALLAD {
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	top: 150px;
+	left: 570px;
+
+} 
+
+.HIPHOP {
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	top: 150px;
+	left: 900px;
+
+
+}
 
 .box3 {
 	background-color: black;
 	background-position: cover;
 	border: 2px solid #FFEBCD;
 	top: 100px;
-	left: 500px;
+	left: 507px;
 	width: 300px;
 	height: 560px;
 	position: absolute;
@@ -61,7 +78,7 @@ body {
 	background-color: black;
 	border: 2px solid #FFEBCD;
 	top: 100px;
-	left: 800px;
+	left: 815px;
 	width: 300px;
 	height: 560px;
 	position: absolute;
