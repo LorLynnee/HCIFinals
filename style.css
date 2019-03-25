@@ -1,94 +1,53 @@
 body {
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpeg);
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
+  background-color: black;
+}
+
+h1 {
+	float: center;
+	font-size: 40px;
+	font-family: "verdana" "sans- serif";
+	color: white;
+	text-transform: uppercase;
+	top: 100px;
+	left: 1500px;
+	position: absolute;
 
 }
 
 .box{
-	background-color: black;
+	background-color: #ff4da6;
 	border: 0px solid #FFEBCD;
 	top: 0px;
 	left: 0px;
-	width: 1348px;
+	width: 1368px;
+	height: 50px;
+	position: absolute;
+	border-radius: 1px;
+	opacity: 0.6;
+}
+
+.marquee {
+	padding: 5px;
+
+}
+
+.box{
+	background-color: #ff4da6;
+	border: 0px solid #FFEBCD;
+	top: 560px;
+	left: 0px;
+	width: 1368px;
 	height: 100px;
 	position: absolute;
 	border-radius: 1px;
 	opacity: 0.6;
-
 }
 
-.box2 {
-	background-color: black;
-	background-position: cover;
-	border: 2px solid #FFEBCD;
-	top: 100px;
-	left: 200px;
-	width: 300px;
-	height: 560px;
-	position: absolute;
-	border-radius: 10px;
-}
-
-
-.POP {
-	color: white;
-	font-size: 30px;
-	position: absolute;
-	top: 150px;
-	left: 300px;
-
-
-}
-
-.BALLAD {
-	color: white;
-	font-size: 30px;
-	position: absolute;
-	top: 150px;
-	left: 570px;
-
-} 
-
-.HIPHOP {
-	color: white;
-	font-size: 30px;
-	position: absolute;
-	top: 150px;
-	left: 900px;
-
-
-}
-
-.box3 {
-	background-color: black;
-	background-position: cover;
-	border: 2px solid #FFEBCD;
-	top: 100px;
-	left: 507px;
-	width: 300px;
-	height: 560px;
-	position: absolute;
-	border-radius: 10px;
-
-}
-
-.box4 {
-	background-color: black;
-	border: 2px solid #FFEBCD;
-	top: 100px;
-	left: 815px;
-	width: 300px;
-	height: 560px;
-	position: absolute;
-	border-radius: 10px;
-}
 
 .main-nav {
 	float: right;
 	list-style: none;
-	top: 0px;
+	top: 540px;
 	right: 50px;
 	font-size: 40px;
 	position: absolute;
@@ -117,10 +76,6 @@ body {
     padding: 10px;
 }
 
-.row{
-	max-width: 1200px;
-	margin: auto;
-}
 
 .header{
 	position: absolute;
@@ -136,7 +91,7 @@ h1 {
 	color: white;
 	text-transform: uppercase;
 	top: 5px;
-	left: 9px;
+	left: 30px;
 	position: absolute;
 }
 
@@ -171,6 +126,13 @@ h1 {
 	border: 1px solid white;
 	border-radius: 70px;
     padding: 10px;
+}
+
+.answer {
+	top: 500px;
+	left: 300px; 
+	position: absolute;
+
 }
 
 
