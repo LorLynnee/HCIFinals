@@ -14,18 +14,6 @@ h1 {
 
 }
 
-.box{
-	background-color: #ff4da6;
-	border: 0px solid #FFEBCD;
-	top: 0px;
-	left: 0px;
-	width: 1368px;
-	height: 50px;
-	position: absolute;
-	border-radius: 1px;
-	opacity: 0.6;
-}
-
 .marquee {
 	padding: 5px;
 
@@ -34,11 +22,11 @@ h1 {
 .box{
 	background-color: #ff4da6;
 	border: 0px solid #FFEBCD;
-	top: 560px;
+	top: 20px;
 	left: 0px;
-	width: 1368px;
+	width: 1340px;
 	height: 100px;
-	position: absolute;
+	position: relative;
 	border-radius: 1px;
 	opacity: 0.6;
 }
@@ -136,6 +124,11 @@ h1 {
 }
 
 
+.center {
+	top: 150px;
+	left: 300px;
+	position: absolute;
+}
 
 
 canvas {

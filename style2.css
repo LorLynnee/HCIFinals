@@ -2,35 +2,35 @@ body {
   background-color: black;
 }
 
+h1 {
+	float: center;
+	font-size: 40px;
+	font-family: "verdana" "sans- serif";
+	color: white;
+	text-transform: uppercase;
+	top: 100px;
+	left: 1500px;
+	position: absolute;
+
+}
 
 .box{
 	background-color: #ff4da6;
 	border: 0px solid #FFEBCD;
-	top: 0px;
+	top: 40px;
 	left: 0px;
-	width: 1366px;
+	width: 1368px;
 	height: 100px;
-	position: absolute;
+	position: relative;
 	border-radius: 1px;
 	opacity: 0.6;
 }
 
-.marquee {
-	padding: 5px;
-
-}
-
-.pics {
-	position: absolute;
-	border-radius: 5px;
-	padding: 12px;
-
-}
 
 .main-nav {
 	float: right;
 	list-style: none;
-	top: 0px;
+	top: 180px;
 	right: 50px;
 	font-size: 40px;
 	position: absolute;
@@ -59,10 +59,11 @@ body {
     padding: 10px;
 }
 
-.row{
-	max-width: 1200px;
-	margin: auto;
+.artists {
+	top: 280px;
+	position: absolute;
 }
+
 
 .header{
 	position: absolute;
@@ -71,6 +72,16 @@ body {
 	margin-top: 0;
 }
 
+
+h1 {
+	float: left;
+	font-size: 40px;
+	color: white;
+	text-transform: uppercase;
+	top: 5px;
+	left: 30px;
+	position: absolute;
+}
 
 
 .button{
@@ -105,11 +116,14 @@ body {
     padding: 10px;
 }
 
-.center {
-	top: 150px;
-	left: 300px;
+.answer {
+	top: 500px;
+	left: 300px; 
 	position: absolute;
+
 }
+
+
 
 
 canvas {
